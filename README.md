@@ -33,7 +33,6 @@ _Carregamento inicial e verificação da qualidade dos dados._
 | -------------------------------- | ----------------------------- |
 | **Faturamento Total**            | **Motoristas Ativos**         |
 
-<br>
 ### 3. Insights Chave
 
 - **Devoluções por Motorista**:  
