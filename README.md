@@ -33,6 +33,7 @@ _Carregamento inicial e verificação da qualidade dos dados._
 | -------------------------------- | ----------------------------- |
 | **Faturamento Total**            | **Motoristas Ativos**         |
 
+<br>
 ### 3. Insights Chave
 
 - **Devoluções por Motorista**:  
@@ -54,6 +55,25 @@ _Carregamento inicial e verificação da qualidade dos dados._
 ## ▶️ Como Executar o Projeto
 
 1. **Acesse o Notebook**:
-   ```bash
-   [![Open in Google Colab](https://colab...)]
-   ```
+
+   - ![Notebook](https://colab.research.google.com/drive/1Q5VppeAhTqz1sqq732usRLHuRdTlovV2#scrollTo=0FB_yV1clTXj)
+
+2. **Executar as Células**:
+
+   - Clique em "Runtime" > "Run all" para rodar o código do notebook.
+   - Ou você pode rodar as células uma por uma clicando em cada célula e pressionando Shift + Enter.
+
+3. **Verifique os Resultados**:
+   - Gráficos serão exibidos após cada célula de visualização.
+   - Dados processados são mostrados em tabelas dinâmicas.
+
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas!
+Sinta-se à vontade para contribuir com melhorias, correções ou novas funcionalidades.Para isso, por favor:
+
+- Faça um fork do repositório
+- Crie uma branch para a sua modificação (git checkout -b nova-funcionalidade)
+- Commit suas alterações (git commit -am 'Adicionando nova funcionalidade')
+- Envie para o repositório original (git push origin nova-funcionalidade)
+- Abra um pull request
