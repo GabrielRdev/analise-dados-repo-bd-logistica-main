@@ -1,68 +1,58 @@
-# Análise de Entrega de Produtos no Google Colab
+# Análise de Dados para Logística: Insights sobre Entregas e Motoristas 🚚
 
-Este projeto utiliza o Google Colab para analisar os dados de entregas de produtos de uma empresa de Logística.
+[![Open in Google Colab](https://img.shields.io/badge/Google%20Colab-Abrir%20Notebook-blue?logo=google-colab)](https://colab.research.google.com/drive/1Q5VppeAhTqz1sqq732usRLHuRdTlovV2)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-1.3.5-green?logo=pandas)](https://pandas.pydata.org/)
 
-## Contexto
+Este projeto utiliza **Python** no Google Colab para analisar dados de entregas de uma empresa de logística, identificando problemas operacionais e propondo soluções baseadas em dados.
 
-Determinada empresa está com alguns problemas com seus motoristas, os produtos e suas entregas. Além disso, esta empresa não possui informações relevantes que possam ajuda-la a resolver este problema.
-Com isso, este projeto é responsável por auxiliar esta empresa de Logística a mapear o que tem dado errado com seu negócio.
-A base de dados está em arquivo CSV com informações relevantes e com isso será possível verificar insights valiosos para o Gestor conseguir tomar decisões acertivas baseado em análise dos dados.
+## 📌 Objetivo
 
-## Descrição
+Auxiliar a empresa a:
 
-O projeto está dividido em:
+- Identificar padrões de atrasos e devoluções.
+- Otimizar a alocação de motoristas.
+- Reduzir custos operacionais através de insights estratégicos.
 
-- Analisar e transformar os dados com código Python e suas bibliotecas; e
-- Visualizações dos dados em formato de tabela e gráfico.
+## 🗃️ Base de Dados
 
-## Tecnologias
+- **Formato**: CSV (dados anonimizados).
+- **Variáveis**: Status de entrega, motivo de devolução, motorista responsável, localidade, faturamento, entre outros.
 
-- Google Colab
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
+## 🔍 Análise Exploratória (EDA)
 
-## Análise dos dados
+### 1. Carregamento e Tratamento dos Dados
 
-- Carregamento da base de dados do arquivo CSV para o Google Colab
-  ![](./img/carga-base-dados.png)
+![](./img/carga-base-dados.png)
+_Carregamento inicial e verificação da qualidade dos dados._
 
-- Tratamento dos dados
-  ![](./img/tratamento-dados.png)
+### 2. Principais Métricas
 
-- Depois de carregar e tratar os dados, é possível gerar métricas para a empresa
+| ![](./img/total-faturamento.png) | ![](./img/qtd-motoristas.png) |
+| -------------------------------- | ----------------------------- |
+| **Faturamento Total**            | **Motoristas Ativos**         |
 
-  ![](./img/total-faturamento.png)
+### 3. Insights Chave
 
-![](./img/qtd-motoristas.png)
+- **Devoluções por Motorista**:  
+  ![](./img/qnt-devolucao-por-mot.png)
+- **Motivos de Devolução**:  
+  ![](./img/motivos-dev.png)
+  ![](./img/motivos-dev-por-motorista.png)
+- **Entregas Atrasadas**:
+- ![](./img/qnt-produtos-status.png)
+  ![](./img/mot-atrasados-entrega.png)
 
-![](./img/qnt-devolucao-por-mot.png)
+## 🛠️ Tecnologias Utilizadas
 
-![](./img/motivos-dev.png)
+- **Google Colab**: Ambiente de execução.
+- **Python 3.8+**: Linguagem principal.
+- **Pandas**: Manipulação de dados.
+- **Matplotlib/Seaborn**: Visualização de dados.
 
-![](./img/motivos-dev-por-motorista.png)
+## ▶️ Como Executar o Projeto
 
-![](./img/qnt-produtos-status.png)
-
-![](./img/mot-atrasados-entrega.png)
-
-## Como Rodar o Projeto no Google Colab
-
-1. **Abrir o Notebook no Google Colab**: Clique no link abaixo para abrir o notebook diretamente no Google Colab:
-   [Abrir no Google Colab] (https://colab.research.google.com/drive/1Q5VppeAhTqz1sqq732usRLHuRdTlovV2
-
-2. **Executar as Células**: Clique em "Runtime" > "Run all" para rodar o código do notebook. Você pode rodar as células uma por uma clicando em cada célula e pressionando Shift + Enter.
-
-3. **Verifique os Resultados**: O notebook irá gerar gráficos e modelos preditivos, exibidos diretamente no Colab.
-
-## Contribuindo
-
-Contribuições são bem-vindas!
-Sinta-se à vontade para contribuir com melhorias, correções ou novas funcionalidades.Para isso, por favor:
-
-- Faça um fork do repositório
-- Crie uma branch para a sua modificação (git checkout -b nova-funcionalidade)
-- Commit suas alterações (git commit -am 'Adicionando nova funcionalidade')
-- Envie para o repositório original (git push origin nova-funcionalidade)
-- Abra um pull request
+1. **Acesse o Notebook**:
+   ```bash
+   [![Open in Google Colab](https://colab...)]
+   ```
