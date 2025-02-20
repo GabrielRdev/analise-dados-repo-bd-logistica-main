@@ -42,7 +42,7 @@ _Carregamento inicial e verificação da qualidade dos dados._
   ![](./img/motivos-dev.png)
   ![](./img/motivos-dev-por-motorista.png)
 - **Entregas Atrasadas**:
-- ![](./img/qnt-produtos-status.png)
+  ![](./img/qnt-produtos-status.png)
   ![](./img/mot-atrasados-entrega.png)
 
 ## 🛠️ Tecnologias Utilizadas
@@ -56,7 +56,7 @@ _Carregamento inicial e verificação da qualidade dos dados._
 
 1. **Acesse o Notebook**:
 
-   - ![Notebook](https://colab.research.google.com/drive/1Q5VppeAhTqz1sqq732usRLHuRdTlovV2#scrollTo=0FB_yV1clTXj)
+   - [Abrir no Google Colab](https://colab.research.google.com/drive/1Q5VppeAhTqz1sqq732usRLHuRdTlovV2)
 
 2. **Executar as Células**:
 
