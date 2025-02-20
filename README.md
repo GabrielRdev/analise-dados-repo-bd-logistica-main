@@ -24,6 +24,7 @@ Auxiliar a empresa a:
 ### 1. Carregamento e Tratamento dos Dados
 
 ![](./img/carga-base-dados.png)
+![](./img/tratamento-dados.png)
 _Carregamento inicial e verificação da qualidade dos dados._
 
 ### 2. Principais Métricas
