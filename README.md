@@ -8,6 +8,23 @@ Determinada empresa está com alguns problemas com seus motoristas, os produtos 
 Com isso, este projeto é responsável por auxiliar esta empresa de Logística a mapear o que tem dado errado com seu negócio.
 A base de dados está em arquivo CSV com informações relevantes e com isso será possível verificar insights valiosos para o Gestor conseguir tomar decisões acertivas baseado em análise dos dados.
 
+## Descrição
+
+O projeto está dividido em:
+
+- Analisar e transformar os dados com código Python e suas bibliotecas; e
+- Visualizações dos dados em formato de tabela e gráfico.
+
+## Tecnologias
+
+- Google Colab
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+
+## Análise dos dados
+
 - Carregamento da base de dados do arquivo CSV para o Google Colab
   ![](./img/carga-base-dados.png)
 
@@ -29,24 +46,6 @@ A base de dados está em arquivo CSV com informações relevantes e com isso ser
 ![](./img/qnt-produtos-status.png)
 
 ![](./img/mot-atrasados-entrega.png)
-
-Com isso, o objetivo deste projeto é verificar insights para auxiliar o Gestor da empresa a tomar uma decisão acertiva,
-baseada na análise e visualização dos dados.
-
-## Descrição
-
-O projeto está dividido em:
-
-- Analisar e transformar os dados com código Python e suas bibliotecas; e
-- Visualizações dos dados em formato de tabela e gráfico.
-
-## Tecnologias
-
-- Google Colab
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
 
 ## Como Rodar o Projeto no Google Colab
 
